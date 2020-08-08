@@ -1,11 +1,16 @@
 const mongoose = require('mongoose');
+const { text } = require('express');
 
 const UserSchema = new mongoose.Schema({
-  name: {
+  userName: {
     type: String,
     required: true
   },
-  email: {
+  userAdd:{
+ type:String,
+  default:null
+  },
+  useremail:{
     type: String,
     required: true
   },
@@ -16,6 +21,10 @@ const UserSchema = new mongoose.Schema({
   date: {
     type: Date,
     default: Date.now
+  },
+  userNum:{
+   type:Number,
+    required:true
   }
 });
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node.js & Passport Login
 
 This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
@@ -21,3 +22,6 @@ $ npm run dev
 ### MongoDB
 
 Open "config/keys.js" and add your MongoDB URI, local or Atlas
+=======
+# login_and_signout_ui
+>>>>>>> 4dfe0ce97cea5975d68667c2031b8a967da10797
